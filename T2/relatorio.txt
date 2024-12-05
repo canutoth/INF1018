@@ -1,0 +1,75 @@
+Júlia Tadeu - 2312392 - 3WA
+Theo Canuto - 2311293 - 3WA
+
+
+O programa funciona na íntegra conforme esperado. Para garantir isso, foram realizados testes 86 testes:
+
+1. Testes quando a função possui apenas um parâmetro:
+    Todas as 6 combinações possíveis entre (INT, PTR) x (IND, FIX, PARAM).
+
+2. Testes quando a função possui 2 parâmetros:
+    Todas as 36 combinações possíveis entre (INT, PTR) x (IND, FIX, PARAM).
+
+3. Testes quando a função possui 3 parâmetros:
+    Nos casos de 3 parâmetros, foram realizados testes focados em casos que deram errado a priori para funções com 1 ou 2 parâmetros, e também em lógicas em que a dupla encontrou mais dificuldade, como a combinação (PTR-IND) e a alocação de PARAM num geral. Isso gerou uma lista de 44 testes, abaixo listados.
+
+    a. (INT,INT,INT)
+    - (PARAM, PARAM, PARAM)
+    - (PARAM, PARAM, FIX)
+    - (PARAM, FIX, PARAM)
+    - (PARAM, FIX, FIX)
+    - (PARAM, PARAM, IND)
+    - (PARAM, IND, FIX)
+    - (IND, IND, IND)
+    - (IND, PARAM, PARAM)
+    - (IND, PARAM, IND)
+    - (IND, FIX, PARAM)
+    
+    b. (INT,INT,PTR)
+    - (PARAM, PARAM, PARAM)
+    - (PARAM, PARAM, FIX)
+    - (PARAM, PARAM, IND)
+    - (PARAM, FIX, PARAM)
+    - (IND, PARAM, PARAM)
+    - (PARAM, IND, PARAM)
+    
+    c. (INT,PTR,PTR)
+    - (PARAM, PARAM, PARAM)
+    - (PARAM, IND, FIX)
+    - (PARAM, FIX, IND)
+    - (PARAM, IND, IND)
+    - (PARAM, FIX, FIX)
+    
+    d. (PTR,PTR,PTR)
+    - (IND, PARAM, IND)
+    - (IND, PARAM, FIX)
+    - (IND, FIX, PARAM)
+    - (IND, IND, PARAM)
+    
+    e. (PTR, INT, PTR)
+    - (IND, PARAM, FIX)
+    - (IND, PARAM, IND) 
+    - (FIX, PARAM, IND)
+    - (FIX, PARAM, FIX)
+    
+    f. (PTR, PTR, INT)
+    - (IND, FIX, IND)
+    - (IND, IND, FIX)
+    - (IND, IND, IND)
+    - (FIX, PARAM, PARAM)
+    - (IND, PARAM, PARAM)
+    
+    g. (PTR, INT, INT)
+    - (FIX, FIX, IND)
+    - (FIX, IND, FIX)
+    - (FIX, IND, IND)
+    
+    h. (INT, PTR, INT)
+    - (FIX, IND, FIX)
+    - (PARAM, IND, FIX)
+    - (PARAM, FIX, PARAM)
+    - (PARAM, IND, PARAM)
+    - (PARAM, FIX, FIX)
+    
+
+Drive com todos os arquivos e testes criados: https://drive.google.com/drive/folders/1KzSnnvtDY0Sc-Ku09bhfEP7zdhpmW_Sf?usp=sharing

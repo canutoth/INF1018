@@ -1,0 +1,29 @@
+Júlia Tadeu - 2312392 - 3WA
+Theo Canuto - 2311293 - 3WA
+
+
+O programa funciona na íntegra conforme esperado. Para garantir isso, os seguintes testes foram realizados:
+
+
+1. De Utf8 para Utf32:
+
+- Caso com caracteres comuns, texto pequeno e grande:
+Arquivo criado disponível no drive - link ao final do relatório - deste trabalho (utf8_textoP e utf8_textoG)
+As conversões foram realizadas corretamente e os textos foram processados sem perdas ou alterações.
+
+- Caso de texto com símbolos:
+Arquivo obtido nas instruções do trabalho (utf8_peq)
+O conteúdo foi adequadamente convertido de UTF-8 para UTF-32. Todos os caracteres, incluindo símbolos especiais e caracteres de outras línguas, foram processados corretamente.
+
+
+2. De UTF-32 para UTF-8:
+
+- Caso Inserção de BOM incorreto:
+Foi desenvolvido um código que insere um BOM (Byte Order Mark) incorreto no arquivo gerado. O arquivo de saída, chamado (utf32_com_bom_errado.txt), foi convertido de UTF-8 para UTF-32, onde um BOM inválido, com o valor 0x12345678, foi inserido propositalmente. Como esperado, ao tentar processar o arquivo resultante, ocorreu o erro esperado devido ao BOM incorreto.
+
+- Caso de texto com símbolos:
+Arquivo obtido nas instruções do trabalho (utf32_peq)
+O conteúdo foi adequadamente convertido de UTF-32 para UTF-8. Todos os caracteres, incluindo símbolos especiais e caracteres de outras línguas, foram processados corretamente.
+
+
+Drive com todos os arquivos e main criada para testes: https://drive.google.com/drive/folders/1HRaevbHejsIm-2__SuW3KtMym9XkuSlR

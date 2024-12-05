@@ -1,0 +1,692 @@
+TESTES PRA 1 PARAMETRO:
+
+1_geral:
+Teste 1 (INT FIX): 5
+<PASSOU!>
+Teste 2: (INT IND): 5
+0	0	--> oh yeah
+1	1	--> oh yeah
+2	2	--> oh yeah
+3	3	--> oh yeah
+4	4	--> oh yeah
+5	5	--> oh yeah
+6	6	--> oh yeah
+7	7	--> oh yeah
+8	8	--> oh yeah
+9	9	--> oh yeah
+10	10	--> oh yeah
+11	11	--> oh yeah
+12	12	--> oh yeah
+13	13	--> oh yeah
+14	14	--> oh yeah
+15	15	--> oh yeah
+Teste 3 (INT PARAM): 5
+<PASSOU!>
+Teste 1 (PTR FIX): 5
+<PASSOU!>
+Teste 2: (PTR IND): 5
+0	0	--> oh yeah
+1	1	--> oh yeah
+2	2	--> oh yeah
+3	3	--> oh yeah
+4	4	--> oh yeah
+5	5	--> oh yeah
+6	6	--> oh yeah
+7	7	--> oh yeah
+8	8	--> oh yeah
+9	9	--> oh yeah
+10	10	--> oh yeah
+11	11	--> oh yeah
+12	12	--> oh yeah
+13	13	--> oh yeah
+14	14	--> oh yeah
+15	15	--> oh yeah
+Teste 3 (PTR PARAM): 5
+<PASSOU!>
+
+TESTES PRA 2 PARAMETROs:
+
+2_int_int:
+Teste 1 (PARAM, PARAM): 6
+<PASSOU!>
+Teste 2 (PARAM, FIX): 6
+<PASSOU!>
+Teste 3 (PARAM, IND):
+0	0
+	--> oh yeah
+2	2
+	--> oh yeah
+4	4
+	--> oh yeah
+6	6
+	--> oh yeah
+8	8
+	--> oh yeah
+10	10
+	--> oh yeah
+12	12
+	--> oh yeah
+14	14
+	--> oh yeah
+16	16
+	--> oh yeah
+18	18
+	--> oh yeah
+20	20
+	--> oh yeah
+Teste 4 (IND, IND):
+0	0
+	--> oh yeah
+1	1
+	--> oh yeah
+4	4
+	--> oh yeah
+9	9
+	--> oh yeah
+16	16
+	--> oh yeah
+25	25
+	--> oh yeah
+36	36
+	--> oh yeah
+49	49
+	--> oh yeah
+64	64
+	--> oh yeah
+81	81
+	--> oh yeah
+100	100
+	--> oh yeah
+Teste 5 (FIX, IND):
+0	0
+	--> oh yeah
+2	2
+	--> oh yeah
+4	4
+	--> oh yeah
+6	6
+	--> oh yeah
+8	8
+	--> oh yeah
+10	10
+	--> oh yeah
+12	12
+	--> oh yeah
+14	14
+	--> oh yeah
+16	16
+	--> oh yeah
+18	18
+	--> oh yeah
+20	20
+	--> oh yeah
+Teste 6 (FIX, FIX):
+<PASSOU!>
+Teste 7 (IND, FIX):
+0	0
+	--> oh yeah
+3	3
+	--> oh yeah
+6	6
+	--> oh yeah
+9	9
+	--> oh yeah
+12	12
+	--> oh yeah
+15	15
+	--> oh yeah
+18	18
+	--> oh yeah
+21	21
+	--> oh yeah
+24	24
+	--> oh yeah
+27	27
+	--> oh yeah
+30	30
+	--> oh yeah
+Teste 8 (IND, PARAM):
+0	0
+	--> oh yeah
+3	3
+	--> oh yeah
+6	6
+	--> oh yeah
+9	9
+	--> oh yeah
+12	12
+	--> oh yeah
+15	15
+	--> oh yeah
+18	18
+	--> oh yeah
+21	21
+	--> oh yeah
+24	24
+	--> oh yeah
+27	27
+	--> oh yeah
+30	30
+	--> oh yeah
+Teste 9 (FIX, PARAM):
+<PASSOU!>
+2_int_ptr:
+Teste 1 (PARAM, PARAM): 6
+<PASSOU!>
+Teste 2 (PARAM, FIX): 6
+<PASSOU!>
+Teste 3 (PARAM, IND):
+0	0
+	--> oh &yeah
+2	2
+	--> oh &yeah
+4	4
+	--> oh &yeah
+6	6
+	--> oh &yeah
+8	8
+	--> oh &yeah
+10	10
+	--> oh &yeah
+12	12
+	--> oh &yeah
+14	14
+	--> oh &yeah
+16	16
+	--> oh &yeah
+18	18
+	--> oh &yeah
+20	20
+	--> oh &yeah
+Teste 4 (IND, IND):
+0	0
+	--> oh &yeah
+1	1
+	--> oh &yeah
+4	4
+	--> oh &yeah
+9	9
+	--> oh &yeah
+16	16
+	--> oh &yeah
+25	25
+	--> oh &yeah
+36	36
+	--> oh &yeah
+49	49
+	--> oh &yeah
+64	64
+	--> oh &yeah
+81	81
+	--> oh &yeah
+100	100
+	--> oh &yeah
+Teste 5 (FIX, IND):
+0	0
+	--> oh &yeah
+2	2
+	--> oh &yeah
+4	4
+	--> oh &yeah
+6	6
+	--> oh &yeah
+8	8
+	--> oh &yeah
+10	10
+	--> oh &yeah
+12	12
+	--> oh &yeah
+14	14
+	--> oh &yeah
+16	16
+	--> oh &yeah
+18	18
+	--> oh &yeah
+20	20
+	--> oh &yeah
+Teste 6 (FIX, FIX):
+<PASSOU!>
+Teste 7 (IND, FIX):
+0	0
+	--> oh &yeah
+3	3
+	--> oh &yeah
+6	6
+	--> oh &yeah
+9	9
+	--> oh &yeah
+12	12
+	--> oh &yeah
+15	15
+	--> oh &yeah
+18	18
+	--> oh &yeah
+21	21
+	--> oh &yeah
+24	24
+	--> oh &yeah
+27	27
+	--> oh &yeah
+30	30
+	--> oh &yeah
+Teste 8 (IND, PARAM):
+0	0
+	--> oh &yeah
+3	3
+	--> oh &yeah
+6	6
+	--> oh &yeah
+9	9
+	--> oh &yeah
+12	12
+	--> oh &yeah
+15	15
+	--> oh &yeah
+18	18
+	--> oh &yeah
+21	21
+	--> oh &yeah
+24	24
+	--> oh &yeah
+27	27
+	--> oh &yeah
+30	30
+	--> oh &yeah
+Teste 9 (FIX, PARAM):
+<PASSOU!>
+2_ptr_int:
+Teste 1 (PARAM, PARAM): 6
+<PASSOU!>
+Teste 2 (PARAM, FIX): 6
+<PASSOU!>
+Teste 3 (PARAM, IND):
+0	0
+	--> oh yeah
+2	2
+	--> oh yeah
+4	4
+	--> oh yeah
+6	6
+	--> oh yeah
+8	8
+	--> oh yeah
+10	10
+	--> oh yeah
+12	12
+	--> oh yeah
+14	14
+	--> oh yeah
+16	16
+	--> oh yeah
+18	18
+	--> oh yeah
+20	20
+	--> oh yeah
+Teste 4 (IND, IND):
+0	0
+	--> oh yeah
+1	1
+	--> oh yeah
+4	4
+	--> oh yeah
+9	9
+	--> oh yeah
+16	16
+	--> oh yeah
+25	25
+	--> oh yeah
+36	36
+	--> oh yeah
+49	49
+	--> oh yeah
+64	64
+	--> oh yeah
+81	81
+	--> oh yeah
+100	100
+	--> oh yeah
+Teste 5 (FIX, IND):
+0	0
+	--> oh yeah
+2	2
+	--> oh yeah
+4	4
+	--> oh yeah
+6	6
+	--> oh yeah
+8	8
+	--> oh yeah
+10	10
+	--> oh yeah
+12	12
+	--> oh yeah
+14	14
+	--> oh yeah
+16	16
+	--> oh yeah
+18	18
+	--> oh yeah
+20	20
+	--> oh yeah
+Teste 6 (FIX, FIX):
+<PASSOU!>
+Teste 7 (IND, FIX):
+0	0
+	--> oh yeah
+3	3
+	--> oh yeah
+6	6
+	--> oh yeah
+9	9
+	--> oh yeah
+12	12
+	--> oh yeah
+15	15
+	--> oh yeah
+18	18
+	--> oh yeah
+21	21
+	--> oh yeah
+24	24
+	--> oh yeah
+27	27
+	--> oh yeah
+30	30
+	--> oh yeah
+Teste 8 (IND, PARAM):
+0	0
+	--> oh yeah
+3	3
+	--> oh yeah
+6	6
+	--> oh yeah
+9	9
+	--> oh yeah
+12	12
+	--> oh yeah
+15	15
+	--> oh yeah
+18	18
+	--> oh yeah
+21	21
+	--> oh yeah
+24	24
+	--> oh yeah
+27	27
+	--> oh yeah
+30	30
+	--> oh yeah
+Teste 9 (FIX, PARAM):
+<PASSOU!>
+2_ptr_ptr:
+Teste 1 (PARAM, PARAM): 6
+<PASSOU!>
+Teste 2 (PARAM, FIX): 6
+<PASSOU!>
+Teste 3 (PARAM, IND):
+0	0
+	--> oh &yeah
+2	2
+	--> oh &yeah
+4	4
+	--> oh &yeah
+6	6
+	--> oh &yeah
+8	8
+	--> oh &yeah
+10	10
+	--> oh &yeah
+12	12
+	--> oh &yeah
+14	14
+	--> oh &yeah
+16	16
+	--> oh &yeah
+18	18
+	--> oh &yeah
+20	20
+	--> oh &yeah
+Teste 4 (IND, IND):
+0	0
+	--> oh &yeah
+1	1
+	--> oh &yeah
+4	4
+	--> oh &yeah
+9	9
+	--> oh &yeah
+16	16
+	--> oh &yeah
+25	25
+	--> oh &yeah
+36	36
+	--> oh &yeah
+49	49
+	--> oh &yeah
+64	64
+	--> oh &yeah
+81	81
+	--> oh &yeah
+100	100
+	--> oh &yeah
+Teste 5 (FIX, IND):
+0	0
+	--> oh &yeah
+2	2
+	--> oh &yeah
+4	4
+	--> oh &yeah
+6	6
+	--> oh &yeah
+8	8
+	--> oh &yeah
+10	10
+	--> oh &yeah
+12	12
+	--> oh &yeah
+14	14
+	--> oh &yeah
+16	16
+	--> oh &yeah
+18	18
+	--> oh &yeah
+20	20
+	--> oh &yeah
+Teste 6 (FIX, FIX):
+<PASSOU!>
+Teste 7 (IND, FIX):
+0	0
+	--> oh &yeah
+3	3
+	--> oh &yeah
+6	6
+	--> oh &yeah
+9	9
+	--> oh &yeah
+12	12
+	--> oh &yeah
+15	15
+	--> oh &yeah
+18	18
+	--> oh &yeah
+21	21
+	--> oh &yeah
+24	24
+	--> oh &yeah
+27	27
+	--> oh &yeah
+30	30
+	--> oh &yeah
+Teste 8 (IND, PARAM):
+0	0
+	--> oh &yeah
+3	3
+	--> oh &yeah
+6	6
+	--> oh &yeah
+9	9
+	--> oh &yeah
+12	12
+	--> oh &yeah
+15	15
+	--> oh &yeah
+18	18
+	--> oh &yeah
+21	21
+	--> oh &yeah
+24	24
+	--> oh &yeah
+27	27
+	--> oh &yeah
+30	30
+	--> oh &yeah
+Teste 9 (FIX, PARAM):
+<PASSOU!>
+TESTES PRA 3 PARAMETROs:
+
+3_main:
+42		42	---> certo
+132		132	---> certo
+282		282	---> certo
+492		492	---> certo
+762		762	---> certo
+1092		1092	---> certo
+1482		1482	---> certo
+1932		1932	---> certo
+2442		2442	---> certo
+3012		3012	---> certo
+3_main1:
+50	50
+<PASSOU!>
+100	100
+<PASSOU!>
+150	150
+<PASSOU!>
+200	200
+<PASSOU!>
+250	250
+<PASSOU!>
+300	300
+<PASSOU!>
+350	350
+<PASSOU!>
+400	400
+<PASSOU!>
+450	450
+<PASSOU!>
+500	500
+<PASSOU!>
+550	550
+<PASSOU!>
+3_main2:
+Teste 1 (FIX, FIX, IND): 53
+<PASSOU!>
+Teste 2 (FIX, IND, FIX): 53
+<PASSOU!>
+Teste 3 (FIX, IND, IND): 53
+<PASSOU!>
+3_main3:
+'quero saber tudo' tem mesmo prefixo-12 de 'quero saber se a outra string é um prefixo dessa'? SIM
+'quero saber tudo' tem mesmo prefixo-16 de 'quero saber se a outra string é um prefixo dessa'? NAO
+3_main4:
+11
+22
+33
+44
+55
+66
+77
+88
+99
+110
+3_main5:
+'quero saber tudo' tem mesmo prefixo-12 de 'quero saber se a outra string é um prefixo dessa'? SIM
+'quero saber tudo' tem mesmo prefixo-16 de 'quero saber se a outra string é um prefixo dessa'? NAO
+3_main6:
+Teste 1 (IND, PARAM, IND): 23
+<PASSOU!>
+Teste 2 (IND, FIX, PARAM): 33
+<PASSOU!>
+3_main7:
+Teste 1 (PARAM, PARAM, PARAM): 23
+<PASSOU!>
+3_main8:
+resultado original: 23
+Teste 1 (IND, PARAM, PARAM): 23
+<PASSOU!>
+resultado original: 23
+Teste 2 (IND, PARAM, FIX): 23
+<PASSOU!>
+resultado original: 23
+Teste 3 (IND, FIX, PARAM): 23
+<PASSOU!>
+resultado original: 23
+Teste 4 (IND, IND, PARAM): 23
+<PASSOU!>
+3_main9:
+Teste 1 (IND, PARAM, FIX): 53
+<PASSOU!>
+Teste 2 (IND, PARAM, IND): 53
+<PASSOU!>
+Teste 3 (FIX, PARAM, IND): 53
+<PASSOU!>
+Teste 4 (FIX, PARAM, FIX): 53
+<PASSOU!>
+3_main10:
+Teste 1 (IND, FIX, IND): 23
+<PASSOU!>
+Teste 2 (IND, IND, FIX): 23
+<PASSOU!>
+Teste 3 (IND, IND, IND): 23
+<PASSOU!>
+3_main11:
+Teste 1 (PARAM, IND, FIX): 23
+<PASSOU!>
+Teste 2 (PARAM, FIX, PARAM): 23
+<PASSOU!>
+Teste 3 (PARAM, IND, PARAM): 23
+<PASSOU!>
+Teste 4 (PARAM, FIX, FIX): 23
+<PASSOU!>
+3_main12:
+Teste 1 (IND, PARAM, PARAM): 53
+<PASSOU!>
+Teste 2 (PARAM, IND, PARAM): 53
+<PASSOU!>
+3_main13:
+Teste 1 (PARAM, PARAM, PARAM): 23
+<PASSOU!>
+Teste 2 (PARAM, PARAM, FIX): 23
+<PASSOU!>
+Teste 3 (PARAM, FIX, PARAM): 23
+<PASSOU!>
+Teste 4 (PARAM, FIX, FIX): 23
+<PASSOU!>
+3_main14:
+Teste 1 (PARAM, PARAM, IND): 23
+<PASSOU!>
+Teste 2 (PARAM, IND, FIX): 23
+<PASSOU!>
+Teste 3 (IND, IND, IND): 23
+<PASSOU!>
+Teste 4 (IND, PARAM, PARAM): 23
+<PASSOU!>
+3_main15:
+Teste 1 (PARAM, PARAM, PARAM): 23
+<PASSOU!>
+Teste 2 (PARAM, PARAM, FIX): 23
+<PASSOU!>
+Teste 3 (PARAM, PARAM, IND): 23
+<PASSOU!>
+resultado original: 28
+Teste 4 (PARAM, FIX, PARAM): 28
+<PASSOU!>
+3_main16:
+Teste 1 (PARAM, IND, FIX): 23
+<PASSOU!>
+Teste 2 (PARAM, FIX, IND): 23
+<PASSOU!>
+Teste 3 (PARAM, IND, IND): 23
+<PASSOU!>
+Teste 4 (PARAM, FIX, FIX): 23
+<PASSOU!>
